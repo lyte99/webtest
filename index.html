@@ -1,15 +1,152 @@
-<html>
-<head>
-</head>
-<body>
+	<!DOCTYPE html> 
+	<html> 
+	<head> 
+	<meta charset="utf-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title></title> 
+	<link href="/Loadout/Content/css?v=-ajo3J6QtgGZONnv3AZei244jm7A7pCtHShB7DstoFM1" rel="stylesheet"/> 
+	
+	<script src="/Loadout/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script> 
+	
+	</head> 
+	<body> 
+	<div class="navbar navbar-inverse navbar-fixed-top"> 
+	<div class="container"> 
+	<div class="navbar-header"> 
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+	<span class="icon-bar"></span> 
+	<span class="icon-bar"></span> 
+	<span class="icon-bar"></span> 
+	</button> 
+	<a class="navbar-brand" href="/Loadout/"></a> 
 
-<h1>Hello!</h1>
-<div>
-Hola
-</div>
+	</div> 
+	
+	<div> 
+	
+	<ul class="nav navbar-nav"> 
+	<li><a href="/Loadout/Home/RFIDReaders">Rail RFID Readers</a></li> 
 
+	</ul> 
+	
+	</div> 
+	</div> 
+	</div> 
+	<div class="container body-content"> 
+	
+	
+	<head> 
+	<meta http-equiv="refresh" content="30"> 
+	</head> 
+	
+	<script type="text/javascript"> 
+	
+	function copyButton(elementID1) { 
+	
+	//alert("text:" + test); 
+	var copyText = document.getElementById(elementID1); 
+	//alert ("copyText:" + copyText) 
+	copyText.select(); 
 
+	//copyText.setSelectionRange(0, 99999) 
+	document.execCommand("copy"); 
+	alert(copyText.value +" Copied to Clipboard"); 
+	
+	
+	} 
+	</script> 
+	
+	<script type="text/javascript"> 
+	setInterval(function () { 
+	window.location.reload(); 
+	}, 300000); 
+	</script> 
+	
+	<h2 class="text-center">Railcar RFID Readers</h2> 
+	<h4 class="text-center">Last Refresh: 7/8/2021 12:47:16 PM</h4> 
+	<br /> 
+	<br /> 
+	<br /> 
+	<br /> 
+	
+	<div> 
+	<div class="row"> 
+	<h3 class="text-center">Unscreened System</h3> 
+	<div class=" col-md-7 col-md-offset-3"> 
+	<table class="table table-bordered table-responsive table-striped table-condensed"> 
+	
+	<tr class="text-center"> 
+	<th class="text-center">Description</th> 
+	<th class="text-center">RailCar ID</th> 
+	<th class="text-center">Timestamp</th> 
+	<th class="text-center"></th> 
+	</tr> 
+	
+	<tr class="text-center"> 
+	<td>Unscreened System East Reader</td> 
+	<td><input id="ID_0" name="ID_0" size="15" type="text" value="CGAX009233" /></td> 
+	<td>7/8/2021 12:44:57 PM</td> 
+	<td><button onclick="copyButton('ID_0')">Copy Railcar ID</button></td> 
+	</tr> 
+	<tr class="text-center"> 
+	<td>Unscreened System West Reader</td> 
+	<td><input id="ID_1" name="ID_1" size="15" type="text" value="CGAX009261" /></td> 
+	<td>7/8/2021 12:44:43 PM</td> 
+	<td><button onclick="copyButton('ID_1')">Copy Railcar ID</button></td> 
+	</tr> 
+	
+	</table> 
+	</div> 
+	<div class="col-md-2"></div> 
+	</div> 
+	<br /> 
+	<br /> 
+	<div class="row"> 
+	<div class=" col-md-7 col-md-offset-3"> 
+	<h3 class="text-center">Speciality System</h3> 
+	
+	<table class="table table-bordered table-responsive table-striped table-condensed"> 
+	
+	<tr class="text-center"> 
+	<th class="text-center">Description</th> 
+	<th class="text-center">RailCar ID</th> 
+	<th class="text-center">Timestamp</th> 
+	<th class="text-center"></th> 
+	</tr> 
+	
+	<tr class="text-center"> 
+	<td>Specialty System East Reader</td> 
+	<td><input id="ID_2" name="ID_2" size="15" type="text" value="CGCX020640" /></td> 
+	<td>7/8/2021 12:39:17 PM</td> 
+	<td><button onclick="copyButton('ID_2')">Copy Railcar ID</button></td> 
+	</tr> 
+	<tr class="text-center"> 
+	<td>Specialty System West Reader</td> 
+	<td><input id="ID_3" name="ID_3" size="15" type="text" value="CLSX005249" /></td> 
+	<td>7/8/2021 12:41:27 PM</td> 
+	<td><button onclick="copyButton('ID_3')">Copy Railcar ID</button></td> 
+	</tr> 
+	
+	</table> 
+	
+	</div> 
+	<div class="col-md-2"></div> 
+	</div> 
+	</div> 
+	
+	<hr /> 
+	<footer> 
+	</footer> 
+	</div> 
+	
+	<script src="/Loadout/bundles/jquery?v=8Oos0avDZyPg-cbyVzvkIfERIE1DGSe3sRQdCSYrgEQ1"></script> 
 
+	
+	<script src="/Loadout/bundles/bootstrap?v=M4Nk6kIOwMFflsEKET0iPL9i5YBqbzMzvUOrd8gyCnw1"></script> 
+	
+	
+	</body> 
+	</html> 
+	
 
-</body>
-</html>
